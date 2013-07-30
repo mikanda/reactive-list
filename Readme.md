@@ -1,13 +1,13 @@
 
-# dynamic-rows
+# reactive-list
 
-  Widget to add and remove sub-widgets dynamically.
+  List controller build on top of component/reactive.
 
 ## Installation
 
   Install with [component(1)](http://component.io):
 
-    $ component install domachine/dynamic-rows
+    $ component install domachine/reactive-list
 
 ## API
 
