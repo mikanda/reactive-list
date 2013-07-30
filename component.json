@@ -1,0 +1,32 @@
+{
+  "name": "reactive-list",
+  "repo": "mikanda/reactive-list",
+  "description": "List controller build on top of component/reactive.",
+  "version": "0.0.1",
+  "keywords": [
+    "reactive",
+    "list",
+    "controller",
+    "view"
+  ],
+  "dependencies": {
+    "component/dom": "*",
+    "component/reactive": "*",
+    "component/query": "*",
+    "component/emitter": "*",
+    "component/object": "*"
+  },
+  "development": {
+    "component/domify": "*",
+    "visionmedia/mocha": "*",
+    "chaijs/chai": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/reactive-list.js",
+    "lib/model-wrapper.js",
+    "lib/index-adapter.js"
+  ]
+}

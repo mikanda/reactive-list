@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="../build/build.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="sinon-1.7.3.js"></script>
+    <script src="../build/build.js"></script>
+    <script>
+      require('mocha');
+      mocha.setup('bdd');
+    </script>
+    <script src="reactive-list.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
