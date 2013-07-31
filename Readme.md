@@ -2,6 +2,7 @@
 # reactive-list
 
   List controller build on top of component/reactive.
+  [Blog post](http://domachine.mikanda.de/javascript/reactive/2013/07/30/reactive-list.html)
 
 ## Installation
 
