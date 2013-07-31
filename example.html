@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Dynamic rows example</title>
+  </head>
+  <body>
+    <table id="rows">
+    </table>
+    <div style="clear:left;margin-top:10px">
+      <input id="add"
+             style="float:left"
+             type="button"
+             value="Add">
+      <input id="remove"
+             style="float:left"
+             type="button"
+             value="Remove">
+      <div style="float:left;margin-left:5px;margin-top:3px">
+        at index
+      </div>
+      <input style="float:left;margin-left:5px"
+             id="indexValue"
+             type="text"
+             size="5">
+    </div>
+    <div style="clear:left">
+      <input type="text" id="new-value">
+      <input type="button" id="change-value" value="Change value">
+    </div>
+
+    <!-- Element used as template to produce subsequent -->
+
+    <script src="build/build.js"></script>
+    <script src="example.js"></script>
+  </body>
+</html>
