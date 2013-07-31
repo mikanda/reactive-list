@@ -3,6 +3,7 @@
   "repo": "mikanda/reactive-list",
   "description": "List controller build on top of component/reactive.",
   "version": "0.0.1",
+  "twitter": "@mikandaIT",
   "keywords": [
     "reactive",
     "list",
