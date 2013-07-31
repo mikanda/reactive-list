@@ -7,7 +7,7 @@ var query = require('query')
   , dom = require('dom')
   , domify = require('domify')
   , Model = require('model')
-  , dynamicRows = require('reactive-list');
+  , ReactiveList = require('reactive-list');
 
 var template = domify([
   '<tr data-index="{index}">',
@@ -21,7 +21,7 @@ var template = domify([
 ].join('\n'));
 var User = Model('user').attr('name');
 var model = new User({ name: 'Test value' });
-var rows = dynamicRows(query('#rows'), template);
+var rows = ReactiveList(query('#rows'), template);
 
 // remove button
 
